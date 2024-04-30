@@ -14,6 +14,9 @@
 		5E2089F12BE0A91D00B6A119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2089F02BE0A91D00B6A119 /* Assets.xcassets */; };
 		5E2089F42BE0A91D00B6A119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2089F22BE0A91D00B6A119 /* LaunchScreen.storyboard */; };
 		5E2089FC2BE0A93C00B6A119 /* CircularCollectionViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2089FB2BE0A93C00B6A119 /* CircularCollectionViewLayoutAttributes.swift */; };
+		5E2089FE2BE0B8B800B6A119 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2089FD2BE0B8B800B6A119 /* CardCell.swift */; };
+		5E208A002BE0B8E600B6A119 /* DownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2089FF2BE0B8E600B6A119 /* DownloadCell.swift */; };
+		5E208A022BE0B91B00B6A119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E208A012BE0B91B00B6A119 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5E2089F32BE0A91D00B6A119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E2089F52BE0A91D00B6A119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2089FB2BE0A93C00B6A119 /* CircularCollectionViewLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		5E2089FD2BE0B8B800B6A119 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		5E2089FF2BE0B8E600B6A119 /* DownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCell.swift; sourceTree = "<group>"; };
+		5E208A012BE0B91B00B6A119 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				5E2089F22BE0A91D00B6A119 /* LaunchScreen.storyboard */,
 				5E2089F52BE0A91D00B6A119 /* Info.plist */,
 				5E2089FB2BE0A93C00B6A119 /* CircularCollectionViewLayoutAttributes.swift */,
+				5E2089FD2BE0B8B800B6A119 /* CardCell.swift */,
+				5E208A012BE0B91B00B6A119 /* ContentView.swift */,
+				5E2089FF2BE0B8E600B6A119 /* DownloadCell.swift */,
 			);
 			path = CircularCollection;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2089FE2BE0B8B800B6A119 /* CardCell.swift in Sources */,
 				5E2089FC2BE0A93C00B6A119 /* CircularCollectionViewLayoutAttributes.swift in Sources */,
+				5E208A022BE0B91B00B6A119 /* ContentView.swift in Sources */,
 				5E2089EC2BE0A91C00B6A119 /* ViewController.swift in Sources */,
 				5E2089E82BE0A91C00B6A119 /* AppDelegate.swift in Sources */,
 				5E2089EA2BE0A91C00B6A119 /* SceneDelegate.swift in Sources */,
+				5E208A002BE0B8E600B6A119 /* DownloadCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
